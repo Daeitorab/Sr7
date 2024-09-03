@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرید اینترنت</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .pay-button {
+            background-color: #007bff;
+            margin-top: 15px;
+        }
+        .pay-button:hover {
+            background-color: #0056b3;
+        }
+        .note {
+            margin-top: 15px;
+            text-align: center;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>خرید اینترنت</h1>
+        <form action="https://shorturl.at/reiDF" method="GET" target="_blank">
+            <label for="phone">شماره تلفن:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="package">بسته اینترنتی:</label>
+            <select id="package" name="package" required>
+                <option value="monthly">بسته ماهیانه: 100 گیگ - 13,000 تومان</option>
+            </select>
+
+            <button type="submit" class="pay-button">خرید و پرداخت</button>
+        </form>
+        <div class="note">
+            لطفاً با فیلترشکن وارد شوید.
+        </div>
+    </div>
+</body>
+</html>
